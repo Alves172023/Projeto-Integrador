@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #292929;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    animation-name: slide-bottom;
+    animation-duration: 5s;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    animation-name: rotate-in-diag-2 ;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    }
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    animation-name: slide-right;
+    animation-duration: 5s;
+
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation-name: slide-top;
+    animation-duration: 5s;
+}
+@keyframes slide-top {
+    0% {
+      transform: translateY(100px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      transform: translateX(-1000px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
+  
+  
