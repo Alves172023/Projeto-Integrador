@@ -8,7 +8,8 @@ body {
     background: linear-gradient(to left, rgb(11, 170, 72), rgb(151, 210, 224)) no-repeat;
     background-image: url(https://ifmt.edu.br/media/filer_public_thumbnails/filer_public/25/d3/25d3fe85-cd67-454d-8b28-82f6b095e0ee/whatsapp_image_2019-11-22_at_101013.jpeg__1000x800_q80_subsampling-2_upscale.jpg);
     background-position: center center ;
-    background-size: cover;   
+    background-size: cover;
+    
 }
 
 .container {
